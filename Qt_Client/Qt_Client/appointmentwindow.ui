@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AppointmentWindow</class>
+ <widget class="QMainWindow" name="AppointmentWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1064</width>
+    <height>611</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1071</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#widget_2{
+	border-image: url(:/IMG_2027.JPG);}</string>
+    </property>
+    <widget class="DisplayWindow" name="widget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>10</y>
+       <width>251</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:1px solid #e1e0e0;
+color: rgb(199, 199, 199);</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>250</y>
+       <width>391</width>
+       <height>271</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>个人简介</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QTextEdit" name="briefIntroduceTextEdit">
+        <property name="styleSheet">
+         <string notr="true">	background-color:rgba(244,244,244,2);
+font: 10pt &quot;黑体&quot;;
+color: rgb(255, 255, 255);</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="nameLabel">
+     <property name="geometry">
+      <rect>
+       <x>590</x>
+       <y>50</y>
+       <width>291</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 85, 0);
+
+font: 12pt &quot;黑体&quot;;
+	</string>
+     </property>
+     <property name="text">
+      <string>姓名</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="majorLabel">
+     <property name="geometry">
+      <rect>
+       <x>590</x>
+       <y>100</y>
+       <width>311</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;黑体&quot;;
+color: rgb(255, 85, 0);</string>
+     </property>
+     <property name="text">
+      <string>专业</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="worktimeLabel">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>140</y>
+       <width>311</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;黑体&quot;;
+color: rgb(255, 85, 0);</string>
+     </property>
+     <property name="text">
+      <string>从业时间</string>
+     </property>
+    </widget>
+    <widget class="QCalendarWidget" name="calendarWidget">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>195</y>
+       <width>371</width>
+       <height>251</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(170, 170, 255);
+font: 9pt &quot;Agency FB&quot;;
+	border-radius:3px;
+	color:rgb(0,0,0);
+</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="appointmentTimelabel">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>460</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;黑体&quot;;
+color: rgb(255, 85, 0);</string>
+     </property>
+     <property name="text">
+      <string>预约时间</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="dateLabel">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>460</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border:1px solid #e1e0e0;
+
+font: 11pt &quot;Algerian&quot;;
+color: rgb(199, 199, 199);
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="commitPushButton">
+     <property name="geometry">
+      <rect>
+       <x>830</x>
+       <y>460</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{	
+	background-color: rgb(141, 141, 141,120);
+	
+	color: rgb(255, 85, 0);
+
+border:1px solid #e1e0e0;
+	border-color: rgb(0, 170, 255);
+
+	font: 12pt &quot;黑体&quot;;
+	border-radius:3px;
+}
+QPushButton:pressed{
+padding-top:3px;
+padding-left:4px;
+}</string>
+     </property>
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1064</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>DisplayWindow</class>
+   <extends>QWidget</extends>
+   <header>displaywindow.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/./images">
+        <file>../9697419_183219051030_2.jpg</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>../8938476_025619992039_2.jpg</file>
+        <file>../9697419_183219051030_2.jpg</file>
+        <file>../17805546_094347207082_2.jpg</file>
+        <file>../26965786_111001144000_2.jpg</file>
+        <file>../aboutus.png</file>
+        <file>../key.png</file>
+        <file>../mine.png</file>
+        <file>../phone.png</file>
+        <file>../safe.png</file>
+        <file>../按钮.png</file>
+        <file>../检查_确认-circle-块.png</file>
+        <file>../确认.png</file>
+        <file>../3822fdc6b3c94c32af338ca285d06c9d.jpeg</file>
+        <file>../8d699b90a359286b80280aabdb17e72e.jpg</file>
+        <file>../24787180_231509743161_2.jpg</file>
+        <file>../5ba9cc860001b22e19201200.jpg</file>
+        <file>../24787180_231509743161_3.jpg</file>
+        <file>../0.png</file>
+        <file>../3.png</file>
+        <file>../594b8af4c6fcb.png</file>
+        <file>../Chh5.png</file>
+        <file>../IMG_2027.JPG</file>
+        <file>../tray4.png</file>
+        <file>../tray5.ico</file>
+        <file>../tray5.png</file>
+    </qresource>
+</RCC>

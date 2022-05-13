@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DoctorWindow</class>
+ <widget class="QMainWindow" name="DoctorWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>824</width>
+    <height>652</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>961</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#widget{
+	border-image: url(:/IMG_2027.JPG);}</string>
+    </property>
+    <widget class="QTableWidget" name="DoctorTableWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>761</width>
+       <height>471</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">	background-color:rgba(244,244,244,2);
+font: 12pt &quot;Algerian&quot;;
+border:1px solid #e1e0e0;
+	border-color: rgb(255, 255, 255);</string>
+     </property>
+     <column>
+      <property name="text">
+       <string>姓名</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>从业时间</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>学历</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>专业</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>预约</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QPushButton" name="GetDoctorPushButton">
+     <property name="geometry">
+      <rect>
+       <x>590</x>
+       <y>490</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 16pt &quot;Arial&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(255, 170, 127);</string>
+     </property>
+     <property name="text">
+      <string>获取医生信息</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>824</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
